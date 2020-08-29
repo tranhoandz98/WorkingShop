@@ -1,0 +1,101 @@
+header{
+	padding-top: 20px
+}
+.menu ul li{
+position: relative;
+text-transform: uppercase;
+}
+.menu ul li a{
+	padding: 3px 15px;
+		color: #000;
+}
+.menu ul li ul{
+		display: none;
+		width: 180px;
+	position: absolute;
+	top: 26px;
+	right: 0;
+	border: 1px solid #c4c4c4;
+}
+.menu ul li ul li a{
+	text-transform: none;
+	}
+
+.menu ul .activev a{
+	background: #6cbb9c;
+	color: #fff;
+}
+.menu ul li:hover ul{
+display: block
+}
+header .example{
+	padding: 20px 0;
+	color: #b9c1d0;
+}
+header .example .head-right .dess{
+	padding-right: 93px;
+	padding-top: 30px
+}
+header .example .head-right{
+	padding: 0
+}
+main{
+	background: #3e4b5e;
+	padding: 20px 0
+}
+main .titles .crip{
+	font-size: 12px;
+}
+.titles{
+	color: #fff;
+}
+.titles .title{
+	font-size: 19px;
+	margin-top: 10px
+}
+.item{
+	margin-bottom: 40px;
+}
+.detail{
+	color:  #b9c1d0;
+	padding: 20px 0
+}
+.detail .title{
+	text-transform: uppercase;
+	font-size: 19px;
+}
+.detail .hang span{
+	display: block;
+}
+.detail .hang3 p{
+	background: #e8eeec;
+	padding: 5px
+}
+.detail .hang4{
+	width: 250px;
+}
+.footer{
+	border-top: 1px solid #cbcbcb;
+	padding: 10px 0
+}
+.menu-footer{
+	padding-left: 460px;
+	padding-top: 30px
+}
+.menu-footer ul li a{
+	padding: 4px 10px;
+}
+footer .back-top{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	color: #1E4FEE;
+	position: fixed;
+	cursor: pointer
+}
+footer .back-top i{
+	font-size: 40px;
+}
+footer .back-top:hover{
+	color: #0B97B5;
+}
